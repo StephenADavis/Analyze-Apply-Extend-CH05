@@ -1,7 +1,7 @@
-/* 
-Style sheet created by: 
-Student's Name 
-Today's Date 
+/*
+Style sheet created by:
+Student's Name: Stephen Davis
+Today's Date: October 5, 2022
 */
 body {
     background-color: #dde3fd;
@@ -22,6 +22,11 @@ body {
 }
 
 /* sticky */
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 
 
 /* relative */
