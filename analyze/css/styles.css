@@ -1,7 +1,7 @@
 /*
     Student Name
-	File Name: 
-	Current Date: 
+	File Name:
+	Current Date:
 */
 
 /* CSS reset */
@@ -21,6 +21,15 @@ img {
     display: block;
 }
 
+/*Style rules for mobile viewport*/
+
+
+/*Hide tab-desk class*/
+.tab-desk{
+  display: none;
+}
+
+
 /* Style rules for header content */
 header h1 {
     text-align: center;
@@ -38,6 +47,7 @@ nav {
 
 nav ul {
     text-align: center;
+    text-decoration: none;
 }
 
 nav li {
@@ -45,6 +55,7 @@ nav li {
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
     padding: 3%;
+    display: inline-block;
 }
 
 nav li a {
