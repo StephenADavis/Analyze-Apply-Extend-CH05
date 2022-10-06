@@ -1,7 +1,7 @@
 /*
-    Student Name
-	File Name:
-	Current Date:
+  Student Name: Stephen Davis
+	File Name: styles.css
+	Current Date: October 6, 2022
 */
 
 /* CSS reset */
@@ -73,6 +73,26 @@ main {
 
 main p {
     font-size: 1.25em;
+}
+
+.btn {
+  background-color: #375f1b;
+  padding: 2%;
+  margin: 2% auto;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn a {
+  color: #ebf7e3;
+  text-decoration: none;
+  font-size: 1.25em;
+  display:block;
+}
+
+.corner {
+  border-radius: 12px;
 }
 
 /* Style rules for footer content */
